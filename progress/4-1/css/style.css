@@ -57,7 +57,11 @@ p{
 	margin: 0.2vh 0;
 }
 
+nav{
+	font-family: Poppins, sans-serif;
+	font-size: 3vh;
+	line-height: 4.5vh;
+}
 a{
 	text-decoration: none;
-	
 }
