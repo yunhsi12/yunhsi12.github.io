@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Example 12-3: Shrink and Expand With Transition</title>
+	<style>
+		div>p{
+			width: 0;
+			background-color: pink;
+			opacity: 0;
+		}
+		div:hover>p{
+			width: 100%;
+			opacity: 1;
+			transition: all 1s linear;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		this is a div
+		<p>catch me if you can!</p>
+	</div>
+	
+
+	
+
+</body>
+</html>

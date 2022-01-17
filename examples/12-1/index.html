@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Example 12-1: CSS Transition</title>
+	<style>
+		div{
+			padding: 10px;
+			background-color: darkred;
+			color: white;
+			font-size: 50px;
+			transition: all 1s linear;/*linear, ease-in, ease-out, ease-in-out*/
+		}
+
+		div:first-of-type:hover{
+			background-color: orange;
+			font-size: 70px;
+			transition: all 3s linear;
+
+		}
+
+		div:last-of-type:hover{
+			background-color: greenyellow;
+			font-size: 70px;
+			/*transition: all 1s linear;*/
+			transition: font-size 1s ease-in, background-color 5s ease-out;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		First Div
+	</div>
+	<div>
+		Second Div
+	</div>
+
+</body>
+</html>
