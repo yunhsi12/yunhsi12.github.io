@@ -1,37 +1,102 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 </style>
 
-nav{
+section > p{
+	font-size: 20px;
+	text-indent: 40px;
+}
+
+
+
+body > img#pbg {
 	position: fixed;
-	top: 5px;
-	left: 5px;
-	font-family: Oswald, sans-serif;
-	font-size: 2vh;
-	line-height: 3vh;
-}
-nav > a{
-	background-color:#FFBB77;
-	color: white;
-	padding: 2px 4px;
-	text-decoration: none ;
-	opacity: 0.6;
-
-}
-nav > a:first-of-type{
-	width: 2.4vw;
+	z-index: -999;
+	top: 0;
+	height: 100%;
+	opacity: 0.4;
 
 }
 
-nav > a: hover{
-	opacity: 0.5;
-
+body> div{
+	line-height: 1.5;
+	font-family: 'Bellefair', serif;
 }
 
-nav > a:not(:first-of-type){
-	border-left: solid 2px black;
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-nav > a: visited{
-	color: brown;
+ul.drop-down-menu{
+	border:none; 
+	display: inline-block;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	font-size: 13px;
+	opacity: 0.9;
+}
+
+ul.drop-down-menu: hover{
+	opacity: 1;
+}
+
+ul.drop-down-menu li{
+	position: relative;
+	white-space: nowrap;
+	border-right:#DEB887 1px solid;
+}
+
+ul.drop-down-menu >li:last-child{
+	border-right: none;
+}
+
+ul.drop-down-menu >li{
+	float: left;
+}
+
+ul.drop-down-menu a{
+	background-color:#D2B48C;
+	color:	white;
+	display: block;
+	padding: 0 30px;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+ul.drop-down-menu a:hover{
+	background-color:	#BB5E00;
+	color: 	white;
+}
+
+ul.drop-down-menu li:hover >a {
+	background-color: 	#BB5E00;
+	color: #fff;
+}
+
+ul.drop-down-menu ul{
+	border: #ccc 1px solid;
+	position: absolute;
+	z-index: 99;
+	left: -1px;
+	top: 100%;
+	min-width: 180px;
+}
+
+ul.drop-down-menu ul li{
+	border-bottom: none;
+}
+
+ul.drop-down-menu ul li:last-child{
+	border-bottom: none;
+}
+
+
+ul.drop-down-menu ul{
+	display: none;
+}
+
+ul.drop-down-menu li:hover > ul{
+	display: block;
 }

@@ -2,154 +2,114 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>FOCUS</title>
+	<title>BASIC COFFEE KNOWLEDGE</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Noto+Sans+TC&display=swap" rel="stylesheet">
-	
-	<link >
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/demo.js"></script>
 	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 		body{
 			background-color: 	#FFE6D9;
 			
 			}
-		nav{
-			position: fixed;
-			margin-left: 0;
-			
-		}
 		img{
 			height: 400px;
-			width: 500px;
-		}
-		div{
-			font-family: 'Fuzzy Bubbles', cursive;
-			text-align: center;
-			margin-left: 100px;
-			margin-right: 100px;
-		}
-		div>p{
-			font-family: 'Noto Sans TC', sans-serif;
-			text-align: center;
+			width: 30vw;
+			float:right;
 		}
 
+		section{
+	        line-height: 1.5;
+	        font-family: 'Bellefair', serif;
+	        font-size: 25px;
+	        margin: 2vh 0;
+			padding: 1vh 2vw;
+			background-color: #f1ebe0;
+			line-height: 2.0;
+			opacity: 0;
+			width: 65.25%;
+        }
+        img#background{
+        	height: 100%;
+        	width: 150%;
+        	position: fixed;
+			z-index: -999;
+			top: 0;
+			left: 0;
+			align-content: center;
+			opacity: 0.6;
+        }
 
 	</style>
 </head>
 <body>
-	<nav>
-		<a href="index.html"> HOME </a><a href="profile.html">AUTOBIOGRAPY</a><a href="topic.html">COFFEE</a>
-	</nav>
-	<embed src="coffee.mp3"  hidden="true" /><p>funtion to be tested...</p>
-		<h1 style="text-align: center;">Basic Coffee Knowledge</h1>
-		<p Align=center><img src="coffee3.jpg"></p>
-		<div>
-			Since I’m a member of coffee club, I would like to share with you some coffee that I know, hoping that those knowledges can help you enter this cute coffee world~
-			<p>由於我現在是咖啡社的社員，所以我想要來跟大家分享我所知道的一些咖啡知識，希望能夠幫助你進入咖啡這個可愛的世界~</p>
+	<ul class="drop-down-menu" style="font-family: 'Mochiy Pop P One', sans-serif;">
+		<li><a href="#">Where do you want to go?</a>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="profile.html">AUTOBIOGRAPHY</a></li>
+				<li><a href="topic.html">COFFEE</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">中文/English</a>
+				<ul>
+					<li><a href="topic-zh.html">中文</a></li>
+					<li><a href="topic.html">English</a></li>
+				</ul>
+			</li>
+		</ul>
+		<img  id="background" src="background.jpeg">
+		
+		<div style="height: 300px; width:100%; text-align: center; color: #FFFAF4;font-family: 'Mochiy Pop P One', sans-serif; margin-top: 15%;">
+			<font size="7";>★ BASIC COFFEE KNOWLEDGE ★</font>
 		</div>
-		<p Align=center><img src="coffee4.jpg"></p>
-		<div>
-			At first, I would like to simply introduce the history of coffee. There were three coffee trends, let’s see!
-			<p>
-				首先，我想要簡單介紹咖啡的歷史。總共有三波風潮，一起來看看!
+		
+		<img src="intro.jpg" style="height: 44.5vh; margin-top: 70px;">
+
+		<section>
+			<p>Since you clicked on this page, I believe that you may be interested in coffee, right? As a member of the beverage club, I will introduce basic coffee knowledge that I have learned in this club in the following contents: various kinds of coffee beans, the process of making latte art in heart shape.</p>
+
+			<p>What was your first cup of coffee? Is it instant coffee with the sweet taste of the mixture of coffee and creamer, special coffee that is sold by chain coffee shops, or original coffee that is self-roasted by professionals? These are three different types of coffee that brought sensations in different periods of time. For now, more and more people start to be interested in coffee and want to know more knowledge about it, just like me. No matter what reason you want to know more about coffee, welcome to this wonderful world, and let’s learn together!</p>
+						
+		</section>
+
+		<img src="coffee1.jpg" style="margin-top: 70px;">
+		<section >
+			<p>First, I would like to introduce two kinds of coffee beans which are the most commonly seen ones: Arabica and Robusta.</p>
+			
+			<p>-Arabica: expensive, soft, low- caffeine, planted in high altitude places, and the line in the middle of beans are in a “s” shape.
+			Arabica’s caffeine is low, it’s about 0.9-1.2%. However, its content of fat is 60% more than Robusta and the content of sugar is twice more than Robusta. So, Arabica tastes sweeter, softer, and with acidity like plum fruit.</p>
+
+			<p>-Robusta: cheap, bitter, high-caffeine, planted in low altitude places, round beans. Robusta’s caffeine is high, its caffeine is about 1.6~2.4%, its contents of fat and sugar are quite low, so the taste of Robusta is more bitter, its beans grow a lot and fast.
 			</p>
-		</div>
-		<div>
-			The first stage: The trend of coffee arose from instant coffee. People were really obsessed with the sweat taste of the mixture of coffee and creamer.
-			<p>第一波:浪潮興起於速溶咖啡，人們深深的沉醉於在咖啡奶精調和的香甜味覺中</p>
-		</div>
-		<div>
-			It is the rise of the chain coffee market. At that time, most of the cafes sell the concept and the environment, while ignoring the quality of the coffee itself. Various fancy coffees conceal the taste of the coffee itself.
-			<p>第二波:是連鎖咖啡市場興起，大部分第二波咖啡館賣的是概念和環境，而忽略了咖啡本身的質量，各種花式咖啡掩蓋了咖啡本身的滋味。</p>
-		</div>
+			
+		</section>
 
-		<div>
-			A group of coffee advocates who really love coffee, began to provide single-origin coffee (single-producing area /single variety), using self-roasted coffee beans, and the degree of roasting was changed to medium-light roasting. They insist on providing specialty coffee, spreading authentic coffee culture, with exclusive cultural meaning, providing coffee directly from the origin production place, and its exclusive culture and technology, their purpose is to return the true quality of coffee.
-			<p>第三波:一批對咖啡真正熱愛精品咖啡倡導者，開始提供單品咖啡（單一產區/ /單一品種），使用自烘焙咖啡豆，烘焙程度也改為中淺烘焙。他們堅持提供精品咖啡，傳播地道咖啡文化，有專屬的文化意味，提供直接來自原產地的咖啡，及其專屬的文化和技術，他們目的就是讓咖啡回歸的真正的品質。</p>
-		</div>
+		<img src="coffee4.jpg" style="margin-top: 200px;">
+		<section>
+			<p>The coffee tastes are not only controlled by the kind of coffee beans but also controlled by where beans are planted. I will introduce the two kinds that I have drank in the club, which are from Brazil and Ethiopia.</p> 
 
-		<p Align=center><img src="coffee1.jpg"></p>
+			<p>--Brazil: Coffee products of supermarkets are from Brazil. According to the general taste that I found online: coffee beans from Brazil have a strong mouthfeel, with chocolate of your end taste. However, in my opinion, when I drink beans from Brazil, it is clean, light, and watery. You won’t feel that it is a heavy taste that stays in your mouth for a long time. I think that it is suitable for people who want to give coffee the first try. </p>
 
-		<div>
-			After you know the history of coffee, it’s about time to know some kinds of coffee beans. I focus on the two that are most common seen.
-			<p>在你了解咖啡的歷史後，是時候去了解一些咖啡豆的種類。我會把焦點放在最常見的兩種豆子上。
-			</p>
-		</div>
+			<p>--Ethiopia: the origin of coffee, high variety of coffee kinds. Usually described to have a taste of syrup. In my own experience, coffee beans from Ethiopia have more acidity and bitterness. You can know instantly from smelling to its aroma. When I drink it, it gives me a heavy taste on my tongue. Therefore, coffee beans from Ethiopia are more suitable for people who like the strong taste or enjoy the acidity and bitterness of coffee.</p>
+		</section>
+		<iframe width="450" height="450" src="https://www.youtube.com/embed/AuJI1BPe8E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right; margin-top: 250px;"></iframe>
+		<section>
+			
+			<p>Secondly, I would like to introduce the process of making latte art in a heart shape. The types of equipment that I used for latte art in the club are an espresso machine, a steel cup, and a coffee cup. The materials I used are coffee powder and milk.</p>
+		
+			<p>When everything is prepared, you can start your latte art! First, use 16 grams of coffee powder to cook espresso with an espresso machine in your coffee cup. Then, you need to make milk foam. It is an important point that decides whether your latte art will succeed or not. You pour some milk into your steel cup and then put the steam wand in it for about 1 to 2 cm deep. The position of the steam wand should be at the left or the right of the center. After everything is set, open the steam wand and slowly move down the steel cup until you hear some sizzle sounds, which represents the air is in the cup. When you feel that the air is enough in the cup (depends on the height of milk foam), you should move your steel cup up. Lastly, when the temperature is enough high. You can turn your steam wand off and your milk foam is done. This may not seem difficult, but how to catch good timing is very difficult. You should have enough experience to determine the temperature and the degree of the intake of the air. Even I can’t make a good milk foam right now!</p>
 
-		<div>
-			The most common coffee beans are from Arabica and Robusta.
-			<p>
-				最普遍的兩種: 阿拉比卡、羅布斯塔
-			</p>
-		</div>
+			<p>After you finish your espresso and milk foam, it’s your time to make your latte art! The steps of making a heart shape latte art are difficult to describe in words. Watch the short clip and you will know clearly.</p>
+		</section>
+		<section style="text-align:center; font-size: 18px;padding-bottom: 0;">
+			References: <a href="https://lovelifego0221.pixnet.net/blog/post/334303940-%E5%92%96%E5%95%A1%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AD%98-%E5%85%A5%E9%96%80%E7%AD%86%E8%A8%98%E6%95%B4%E7%90%86">基礎咖啡知識 入門知識整理</a>
+			<p style="letter-spacing:3px">- If there has any error, please don't hesitate to let me know. Thank you-</p>
+		</section>
+		
 
-		<div>
-			Arabica: expensive, soft, low- caffeine, planted in high altitude places, and the line in the middle of beans are in a “s” shape.
-			<p>
-				阿拉比卡：貴、味道柔順、咖啡因低、種植海拔高、豆子中間線為s型
-			</p>
-		</div>
-
-		<div>
-			Arabica’s caffeine is low, it’s about 0.9-1.2%. however, its content of fat is 60% more than Robusta and the content of sugar is twice more than Robusta. So, Arabica tastes sweater, softer, and with the acidity like plum fruit.
-			<p>
-				咖啡因含量低（0.9-1.2%），脂肪含量比羅布斯塔多了60%，糖的含量則是兩倍，因此綜合起來，阿拉比卡的味道比較甜、柔和，帶點梅果般的酸味。
-			</p>
-		</div>
-
-		<div>
-			Robusta: cheap, bitter, high-caffeine, planted in low altitude places, round beans.
-			<p>
-				羅布斯塔：便宜、味道苦烈、咖啡因高、種植海拔低、豆體圓
-			</p>
-		</div>
-
-		<div>
-			Robusta’s caffeine is high, its caffeine is about 1.6~2.4% ,its contents of fat and sugar are quite low, so the taste of Robusta is more bitter, its beans grow a lot and fast.
-			<p>
-				咖啡因較高（1.6-2.4%）、脂肪和糖分含量較低的羅布斯塔的味道較苦也較強烈，結的果實多且速度很快。
-			</p>
-		</div>
-
-		<p Align=center><img src="coffee2.jpg"></p>
-		<div>
-			The coffee tastes are not only control by the kind of coffee beans but also control by where beans are planted and how beans are brewed
-			<p>
-				咖啡的風味不只是受咖啡的種類影響，也會受它的產地及沖煮方法影響。
-			</p>
-		</div>
-
-		<div>
-			Brazil: most of them are from Robusta, strong mouthfeel, with chocolate of your end taste. Coffee products of supermarkets are from Brazil.
-			<p>
-				巴西：大部分產羅布斯塔，口感濃烈，有巧克力餘味。大賣場的咖啡產品通常來自巴西。
-			</p>
-		</div>
-
-		<div>
-			Central America, Columbia: bland, good balance, low acidity, there’s a fruit taste at the end of your taste.
-			<p>
-				中美洲、哥倫比亞：味道比較淡，平衡度好，低酸度，餘味有果香。
-			</p>
-		</div>
-
-		<div>
-			Ethiopia: the origin of coffee, high variety of coffee kinds. Usually described to have a taste of syrup.
-			<p>
-				衣索比亞：咖啡原產地，種類多樣性高。許多被形容有糖漿味
-			</p>
-		</div>
-
-		<div>
-			Those I’ve just mentioned above are some beans that I’ve tasted before. In my opinion, if you want to try coffee for your first time, I will suggest you to drink coffee from Brazil, because it has the great smell of coffee and with a good balance between acidity and bitter.
-			<p>
-				上述所提到是因些我曾經喝過的豆子。在我看來，如果你想要初次嘗試喝咖啡，我會建議你喝巴西的咖啡，因為它有咖啡美好的香氣以及酸雨苦之間的良好平衡。
-			</p>
-		</div>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/j_ZiCjOJ2Jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/1Fmfr2Q23sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-		<p style="text-align:center;font-family: 'Fuzzy Bubbles', cursive;">TO BE CONTINUED...</p>
-	
 	</body>
 </html>	
 			
